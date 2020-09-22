@@ -5,7 +5,7 @@ This is a CLI tool that lets you quickly create a problem solving directory.
 ## Installation
 
 ```bash
-npm i create-ps-directory
+npm i -g create-ps-directory
 ```
 
 ## Language Support

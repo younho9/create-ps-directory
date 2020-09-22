@@ -6,6 +6,7 @@
     "bin": {
         "create-ps-directory": "./bin/index.js"
     },
+    "preferGlobal": true,
     "directories": {
         "lib": "lib"
     },
