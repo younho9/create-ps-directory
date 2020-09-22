@@ -1,5 +1,7 @@
 # Create PS Directory
 
+[![npm version](https://badge.fury.io/js/create-ps-directory.svg)](https://badge.fury.io/js/create-ps-directory)
+
 This is a CLI tool that lets you quickly create a problem solving directory.
 
 ## Installation
