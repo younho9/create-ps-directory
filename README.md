@@ -50,7 +50,7 @@ problems
       └── younho9.test.js
 ```
 
-#### solution.js
+#### younho9.js
 
 ```javascript
 function solution(input) {
@@ -59,10 +59,10 @@ function solution(input) {
 }
 ```
 
-#### solution.test.js
+#### younho9.test.js
 
 ```javascript
-const solution = require("./${username}");
+const solution = require("./younho9");
 
 describe("problem", () => {
     it("test 1", () => {
