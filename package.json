@@ -1,0 +1,39 @@
+{
+    "name": "create-ps-directory",
+    "version": "1.0.0",
+    "description": "Simple CLI app to create a problem-solving directory",
+    "main": "index.js",
+    "bin": {
+        "create-ps-directory": "./bin/index.js"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {
+        "chalk": "4.1.0",
+        "fs": "0.0.1-security",
+        "commander": "6.1.0",
+        "inquirer": "7.3.3",
+        "path": "0.12.7"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/younho9/create-ps-directory.git"
+    },
+    "keywords": [
+        "node",
+        "problem-solving",
+        "algorithms",
+        "CLI"
+    ],
+    "author": "younho9",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/younho9/create-ps-directory/issues"
+    },
+    "homepage": "https://github.com/younho9/create-ps-directory#readme"
+}
