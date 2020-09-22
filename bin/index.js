@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const { program } = require("commander");
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
@@ -71,8 +70,6 @@ const writeSync = (file, str) => {
         console.log(chalk.bold.green(`✅ ${file} successfully created.`));
     }
 };
-
-program.version("1.0.0", "-v, --version", "output the current version");
 
 const questions = [
     {
