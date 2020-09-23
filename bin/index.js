@@ -42,6 +42,7 @@ const makeTemplate = ({ directory, title, username, language, testCase }) => {
     mkdirp(psDirectory);
 
     const program = langMap[`${language}`];
+    const readmeFile = path.join(psDirectory, "README.md");
     const solutionFile = path.join(
         psDirectory,
         `${username}.${program.fileExt}`
@@ -50,6 +51,7 @@ const makeTemplate = ({ directory, title, username, language, testCase }) => {
         ? path.join(psDirectory, `${username}.${program.testExt}`)
         : null;
 
+    writeSync(readmeFile, `# ${title} \n`);
     writeSync(solutionFile, program.solution);
     if (testFile) {
         writeSync(testFile, program.test(title, username, testCase));
