@@ -1,6 +1,6 @@
 {
     "name": "create-ps-directory",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Simple CLI app to create a problem-solving directory",
     "main": "index.js",
     "bin": {
