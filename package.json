@@ -30,7 +30,7 @@
         "algorithms",
         "CLI"
     ],
-    "author": "younho9",
+    "author": "Younho Choo <yo+github@younho9.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/younho9/create-ps-directory/issues"
